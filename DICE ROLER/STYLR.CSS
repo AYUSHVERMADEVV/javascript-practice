@@ -1,0 +1,44 @@
+#CONTAINER{
+    TEXT-ALIGN: CENTER;
+    FONT-FAMILY: ARIAL, SANS-SERIF;
+    FONT-SIZE: 1.5REM;
+    FONT-WEIGHT: BOLD;
+}
+BUTTON{
+    FONT-SIZE: 1.5REM;
+    MARGIN: 1REM;
+    PADDING: 0.5REM 1REM;
+    FONT-WEIGHT: BOLD;
+    BACKGROUND-COLOR: hsl(279, 86%, 68%);
+    COLOR: WHITE;
+    BORDER: NONE;
+    BORDER-RADIUS: 0.5REM;
+    CURSOR: POINTER;
+}
+BUTTON:HOVER{
+    BACKGROUND-COLOR: hsl(279, 86%, 58%);
+}
+BUTTON:ACTIVE{
+    BACKGROUND-COLOR: hsl(279, 86%, 48%);
+}
+INPUT{
+    FONT-SIZE:1.5REM;
+    PADDING: 0.5REM;
+    BORDER: 2PX SOLID BLACK;
+    BORDER-RADIUS: 0.5REM;
+    TEXT-ALIGN: CENTER;
+    TEXT-DECORATION: NONE;
+    FONT-WEIGHT: BOLD;
+}
+#DICEIMAGE{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+#DICEIMAGE img{
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
